@@ -9,29 +9,29 @@ function myFunction() {
 }
 
 function myFunctionSandoz() {
-   let element = document.getElementById('demo2');
-   if (element.style.display === 'none') {
-      element.style.display = 'block';
+   let element2 = document.getElementById('demo2');
+   if (element2.style.display === 'none') {
+      element2.style.display = 'block';
    } else {
-      element.style.display = 'none';
+      element2.style.display = 'none';
    }
 }
 
 function myFunctionArterium() {
-   let element = document.getElementById('demo3');
-   if (element.style.display === 'none') {
-      element.style.display = 'block';
+   let element3 = document.getElementById('demo3');
+   if (element3.style.display === 'none') {
+      element3.style.display = 'block';
    } else {
-      element.style.display = 'none';
+      element3.style.display = 'none';
    }
 }
 
 function myFunctionMorgue() {
-   let element = document.getElementById('demo4');
-   if (element.style.display === 'none') {
-      element.style.display = 'block';
+   let element4 = document.getElementById('demo4');
+   if (element4.style.display === 'none') {
+      element4.style.display = 'block';
    } else {
-      element.style.display = 'none';
+      element4.style.display = 'none';
    }
 }
 
