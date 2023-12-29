@@ -14,6 +14,7 @@ html {
    display: flex;
    flex-direction: column;
    align-items: center;
+   gap: 40px;                        /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 }
 .foto {
    display: inline-block;
@@ -48,6 +49,26 @@ html {
    background-color: rgb(241, 217, 174);
    color: orange;
 }
+
+
+.contact__item {
+   list-style-type: none;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.contact__item-link {
+   text-decoration: none;
+   font-size: 1.6rem;
+   color: rgb(66, 63, 63);
+   font-weight: 700;
+}
+.contact__item-link_img {
+   font-size: 3rem;
+}
+
+
 @media all and (max-width: 678px) {
    .button {
       font-size: 1.6rem;
@@ -55,16 +76,26 @@ html {
    .foto {
       width: 150px;
    }
+   .contact__item {
+      padding: 3px;
+   }
+   .contact__item-link {
+      font-size: 0.8rem;
+   }
+   .contact__item-link_img {
+      font-size: 1rem ;
+   }
 }
    
    
    
+   
 
 
 
 
 
-/* font-size: 2.2rem; */
+
 
 
 
