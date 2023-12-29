@@ -1,0 +1,8 @@
+@import url(./assets/reset.css);
+@import url(./assets/fonts/fonts.css);
+
+html {
+   font-family: 'Akatab';
+   font-size: 10px;
+}
+  
