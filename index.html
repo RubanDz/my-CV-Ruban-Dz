@@ -4,10 +4,130 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./style.css">
+
+   <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+   <link rel="manifest" href="./images/site.webmanifest">
+
    <title>my-CV</title>
 </head>
 <body>
-   <p>Lorem, ipsum dolor.</p>
+
+   <div class="flex-container">
+
+   <header class="header">
+      <p class="header__name">Ruban Dzmitry<br><span class="header__name_size">Junior Frontend Developer</span></p>
+      <p class="header__name">Experience:</p>
+
+      <button onclick="myFunction()" class="button experience__button" title="push me">Berlin-Chemie AG 2016-until now</button>
+      <p class="button__text_js" id="demo" style="display: none;">Position at work: Medical Representative compani Berlin-Chemie Menarini in RB (FRG in RB)</p>
+
+      <button onclick="myFunctionSandoz()" class="button experience__button" title="push me">Sandoz (Novartis) 2014-2016</button>
+      <p class="button__text_js" id="demo2" style="display: none;">Position at work: Medical Representative compani Sandoz, subgroup Novartis (Slovenia)</p>
+
+      <button onclick="myFunctionArterium()" class="button experience__button" title="push me">Arterium 2011-2014</button>
+      <p class="button__text_js" id="demo3" style="display: none;">Position at work: Medical Representative compani Arterium (Ukraine)</p>
+
+      <button onclick="myFunctionMorgue()" class="button experience__button" title="push me">Polotsk city, Morgue 2011-2014</button>
+      <p class="button__text_js" id="demo4" style="display: none;">No comments</p>
+
+      <p class="header__text">I am looking forward to getting my first job and seeking to develop my experiences and
+         enhance my skills by integrating into a real work environment and working to implement
+         market requirements. Contact me in any way. <br>
+         Thank you!</p>
+   </header>
+
+   <main class="main">
+
+      <aside class="aside">
+        <div class="wrapper">
+         <div class="foto">
+            <img class="foto__ruban" src="./images/Ruban_Dz_foto_Dubai.jpg" alt="my-foto">
+         </div>
+
+         <div class="contact">
+            <button class="button">contact me</button>
+            <ul class="contact__item">
+              <li><a class="contact__item-link" href="tel:+375336211606"><span class="contact__item-link_img">&#9990; </span>+375336211606</a></li>
+              <li><a class="contact__item-link" href="mailto:ruban251219872023@gmail.com"><span class="contact__item-link_img">&#128388; </span>ruban251219872023@gmail.com</a></li>
+              <li><a class="contact__item-link" href="https://github.com/RubanDz"><span class="contact__item-link_img">&#128435; </span>Github</a></li>
+              <li><a class="contact__item-link" href="https://yandex.by/maps/154/vitebsk/house/Z0kYdAdgTkAPQFtvfX12c3phYQ==/?ll=30.200758%2C55.172625&z=16"><span class="contact__item-link_img">&#10003; </span>BY, Vitebsk</a></li>
+            </ul>
+         </div>
    
+         <div class="education">
+            <button class="button">education</button>
+            <ul class="contact__item">
+               <li><a class="contact__item-link" href="https://vitgmk.by/"><span class="contact__item-link_img">&#187; </span>Vitebsk State Medical College, 2011</a></li>
+               <li><a class="contact__item-link" href="https://vsu.by/"><span class="contact__item-link_img">&#187; </span>Vitebsk State University named after P.M. Masherov, speciality: Biologist 2016</a></li>
+               <li><a class="contact__item-link" href="https://vstu.by/"><span class="contact__item-link_img">&#187; </span>Vitebsk State Technological University, speciality: Economist-Manager. 2020</a></li>
+               <li><a class="contact__item-link" href="https://www.arterium.ua/ru"><span class="contact__item-link_img">&#187; </span>Kyiv State Business school of marketing, speciality: Product-Manager, 2018</a></li>
+               <li><a class="contact__item-link" href="https://vitebsk.itstep.by/"><span class="contact__item-link_img">&#187; </span>Vitebsk State Computer Academy, speciality: Frontend-Developer, 2024</a></li>
+            </ul>
+        </div>
+     
+        <div class="skills">
+           <button class="button">skills</button>
+           <ul class="skills__item">
+              <li class="skills__item_size">HTML</li>
+              <li class="skills__item_size">CSS</li>
+              <ul><li>Bootstrap</li><li>SCSS</li></ul>
+              <li>JS</li>
+              <ul><li>React</li></ul>
+              <li>Git</li>
+              <ul><li>Github</li></ul>
+              <li>Figma</li>
+           </ul>
+         </div>
+       </div>
+      </aside> 
+
+   </main>
+
+   <footer class="footer">
+    <ul class="footer__element-flex">
+      <li class="footer__element"><a href="https://www.facebook.com/dzmitry_25"><img class="footer__element_img"  src="./images/Facebook.png" alt="Facebook"></a></li>
+      <li class="footer__element"><a href="https://www.instagram.com/dzmitry_25"><img img class="footer__element_img"  src="./images/png-transparent-instagram-.png" alt="Instagram"></a></li>
+      <li class="footer__element"><a href="https://t.me/RDI2023"><img img class="footer__element_img"  src="./images/png-transparent-social-telegram-chat-messenger-social-network-icon.png" alt="Telegram"></a></li>
+      <li class="footer__element"><a href="viber://chat?number=%2B375336211606"><img img class="footer__element_img"  src="./images/png-clipart-viber-whatsapp-skype-skype-purple-violet.png" alt="Viber"></a></li>
+    </ul>
+   </footer>
+</div>
+     
+<script src="./doc.js"></script>
+
 </body>
 </html>
+
+
+
+   
+         
+            
+         
+
+       
+         
+            
+              
+       
+
+
+   
+         
+           
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
